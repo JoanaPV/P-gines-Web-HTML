@@ -1,0 +1,82 @@
+body {
+   font: 25px Helvetica;
+   background: #c1f0f8;
+   color: white;
+   display: flex;
+   min-height: 800px;
+   flex-wrap: wrap;
+   display: flex;
+   flex: 1;
+   flex-direction: row;
+    flex: 1;
+  }
+
+html{
+        width: 100%;
+        display: flex;
+        min-height: 200px;
+        
+}
+
+.Top-Down {
+
+        margin: 4px;
+        padding: 5px;
+        width: 90%;
+        background-color: blue;
+        display: flex;
+
+        
+}
+
+ 
+  .text {
+   margin: 10px;
+        width: 100%;
+   background: #cacabb;
+   flex: 1;
+   margin: 4px;
+   padding: 5px;
+   -webkit-flex: 3 1 60%;
+      flex: 3 1 60%;
+-webkit-order: 2;
+      order: 2;
+    
+        
+
+   }
+  
+#main > .sidebar > .text {
+
+        margin: 4px;
+        padding: 5px;
+        flex-wrap: wrap;
+        flex-basis: content;
+        flex-direction: column;
+        background: #84c1fa;
+        -webkit-flex: 1 6 50%;
+        flex: 1 6 50%;
+-webkit-order: 3;
+        order: 3;
+   }
+#main{
+        min-height: 800px;
+        margin: 0px;
+        padding: 0px;
+        display: -webkit-flex;
+        display:         flex;
+        -webkit-flex-flow: row;
+                flex-flow: row;
+}
+#main > .nav > .text{
+margin: 4px;
+padding: 5px;
+flex-wrap: wrap;
+flex-basis: content;
+flex-direction: column;
+background: #84c1fa; 
+-webkit-flex: 1 6 50%;
+flex: 1 6 50%;
+-webkit-order: 1;
+order: 1;
+}

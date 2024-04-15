@@ -1,0 +1,29 @@
+span{
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h1{
+    color: rgb(197, 146, 18);
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
+body{
+    background-color: rgb(143, 90, 180);
+}
+h2{
+    background-color: rgb(46, 46, 150);
+    color: white;
+}
+article{
+    background-color: darkgrey;
+}
+h3{
+    display:none;
+}
+footer{
+    font-size: 20px;
+    background-color: rgb(61, 1, 61);
+}
